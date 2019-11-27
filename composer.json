@@ -1,0 +1,23 @@
+{
+    "name": "neologicx/photogallery",
+    "description": "photogallery package",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^7.0@dev",
+        "php": "^7.3",
+        "phpunit/phpunit": "^8.5@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Neologicx\\Photogallery\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Twinkle Taneja",
+            "email": "twinkle.taneja@neologicx.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

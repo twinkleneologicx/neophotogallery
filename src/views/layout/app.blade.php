@@ -38,7 +38,7 @@
       </li> --}}
     </ul>
 
-    <a href="/logout" class="btn btn-danger" style="color: #fff; position: relative; right: -660px;">Logout <i class="fa fa-power-off" aria-hidden="true"></i></a>
+    {{-- <a href="/logout" class="btn btn-danger" style="color: #fff; position: relative; right: -660px;">Logout <i class="fa fa-power-off" aria-hidden="true"></i></a> --}}
   </nav>
   <br>
   @if (session()->has('msg'))

@@ -30,6 +30,7 @@
         <tr>
           <th>S.no.</th>
           <th>Category</th>
+          <th>Sub-heading</th>
           <th>Cover Image</th>
           <th>Date</th>
           <th>All Images</th>
@@ -41,6 +42,7 @@
         <tr>
           <td>{{$key+1}}</td>
           <td>{{$item->name}}</td>
+          <td>{{$item->subheading}}</td>
           <td> <img class="zoomhover" src="{{\Storage::url($item->cover_image)}}" alt="{{$item->name}}"
               style="min-width: 50px; max-width: 50px; min-height: 50px; max-height: 50px;"> </td>
           <td>{{date('F d, Y', strtotime($item->date))}}</td>

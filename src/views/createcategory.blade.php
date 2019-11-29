@@ -22,6 +22,11 @@
               value="@if(isset($category)){{$category->name}} @endif">
           </div>
           <div class="form-group">
+            <label for="name">Sub-heading:</label>
+            <input type="text" class="form-control" id="subheading" placeholder="Enter sub-heading" name="subheading"
+              value="@if(isset($category)){{$category->subheading}} @endif">
+          </div>
+          <div class="form-group">
             <label for="image">Cover Image:</label>
             @if(isset($category)) <img src="{{\Storage::url($category->cover_image)}}" style="width:150px; height:100px; margin-bottom:5px;"> @endif
             <input type="file" class="form-control" id="cover_image" name="cover_image" style="padding: 3px;">
